@@ -41,15 +41,15 @@ console.log('linked')
 
 //  for (let key in salaries) {
 //      sum+=salaries[key]
-    
+
 //  }
 //  console.log(sum)
 
-let menu = {
-    width: 200,
-    height: 300,
-    title: "My menu"
-  };
+// let menu = {
+//     width: 200,
+//     height: 300,
+//     title: "My menu"
+//   };
 
 // console.log(menu)
 
@@ -67,13 +67,73 @@ let menu = {
 //     console.log(menu[key])
 // }
 
-let schedule = {}
+// let schedule = {}
 
-function isEmpty(obj) {
-   for (let key in obj) {
-       console.log(key)
-   } 
-   console.log(true)
+// function isEmpty(obj) {
+//    for (let key in obj) {
+//        console.log(key)
+//    } 
+//    console.log(true)
+// }
+
+// isEmpty(schedule)
+
+// function min(a, b) {
+//     return a < b ? a : b
+// }
+
+// function showMessage(text) {  
+//     if (text === undefined) {
+//         // if the parameter is missing text = 'empty message';
+//         console.log('its empty!')
+//     }
+//     alert(text);
+
+// }
+
+// showMessage(); // empty message
+
+// const sayHi = function() {
+//     alert('hello')
+// }
+
+// function declaredThis() {
+//     //code here
+// }
+
+// let expressThis = function() {
+//     //code here
+// }
+
+// let ArrowThis = () => console.log('//code here if single expression')
+
+// let sum = (a, b) => a + b
+
+//find method: 
+
+// let user = users.find(item => item.id === 'X')
+// let user = users.find(item => item.id === 'X')
+// let user = users.find(item => item.id === 'X')
+
+// let arr = [1, 2, 11, 22, 111, 222]
+
+// console.log(arr.concat([3, 4], 9))
+
+// console.log(arr.indexOf(22))
+// console.log(arr.includes(111))
+
+function doubleChar(str) {
+    //split string into an array
+    const newStr = str.split('')
+    const doubleStr = []
+    //iterate over it twice, returning i (2x) to a new array
+    newStr.forEach((item, i) => {
+        doubleStr.push(item, item)
+    })
+    //return new string
+    return doubleStr.join('')
 }
 
-isEmpty(schedule)
+doubleChar('abc')
+
+const doubleChar = (str) => str.split("").map(c => c + c).join("");
