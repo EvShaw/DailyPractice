@@ -1,0 +1,8 @@
+.block {
+    height: 50px;
+    width: 50%;
+    display: block;
+    border: 1px solid red;
+    margin: 0 auto;
+}
+
