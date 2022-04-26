@@ -51,14 +51,29 @@ let menu = {
     title: "My menu"
   };
 
-console.log(menu)
+// console.log(menu)
 
-function mulNum(obj) {
-    for (let key in obj) {
-      if(typeof obj[key] == 'number') {
-          obj[key] *= 2
-      }
-    }
+// function mulNum(obj) {
+//     for (let key in obj) {
+//       if(typeof obj[key] == 'number') {
+//           obj[key] *= 2
+//       }
+//     }
+// }
+// mulNum(menu)
+// console.log(menu)
+
+// for (let key in menu) {
+//     console.log(menu[key])
+// }
+
+let schedule = {}
+
+function isEmpty(obj) {
+   for (let key in obj) {
+       console.log(key)
+   } 
+   console.log(true)
 }
-mulNum(menu)
-console.log(menu)
+
+isEmpty(schedule)
