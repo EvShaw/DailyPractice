@@ -122,18 +122,45 @@ console.log('linked')
 // console.log(arr.indexOf(22))
 // console.log(arr.includes(111))
 
-function doubleChar(str) {
-    //split string into an array
-    const newStr = str.split('')
-    const doubleStr = []
-    //iterate over it twice, returning i (2x) to a new array
-    newStr.forEach((item, i) => {
-        doubleStr.push(item, item)
-    })
-    //return new string
-    return doubleStr.join('')
+// function doubleChar(str) {
+//     //split string into an array
+//     const newStr = str.split('')
+//     const doubleStr = []
+//     //iterate over it twice, returning i (2x) to a new array
+//     newStr.forEach((item, i) => {
+//         doubleStr.push(item, item)
+//     })
+//     //return new string
+//     return doubleStr.join('')
+// }
+
+// doubleChar('abc')
+
+// const doubleChar = (str) => str.split("").map(c => c + c).join("");
+
+// const myArr = [6, 12, 9, 18, 5, 10]
+// const yourArr = [2, 9, 12, 5, 10, 15]
+
+// for (let i = 0; i < myArr.length; i ++) {
+//     for (let j = 0; j < yourArr.length; j++) {
+//         if (myArr[i] === yourArr[j]) {
+//             console.log(`both arrays contain:` +myArr[i])
+//         }
+//     }
+// }
+
+
+// const person = {
+//     firstName: 'John',
+//     lastName: 'Doe',
+//    age: 30
+// }
+// console.log(person.firstName, person.age)
+
+// const fruits = ['apples', ' oranges', 'pears']
+
+// console.log(fruits.indexOf('pears'))
+
+for (let i = 1; i <= 10; i++) {
+    console.log(`for loop number: ${i}`)
 }
-
-doubleChar('abc')
-
-const doubleChar = (str) => str.split("").map(c => c + c).join("");
