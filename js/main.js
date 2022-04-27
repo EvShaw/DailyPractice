@@ -296,3 +296,17 @@ console.log('linked')
 
 //testing pull request and update. 
 
+localStorage.clear()
+localStorage.removeItem('propertyName', 'value')
+
+const li = document.createElement('li')
+li.textContent = 'Another day, another opportunity'
+document.querySelector('ul').appendChild('li')
+
+data.subClases.forEach( obj => {
+    console.log(obj.name)
+    const li = document.createElement('li')
+    li.textContent = obj.name
+    document.querySelector('ul').appendChild(li)
+})
+
