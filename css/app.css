@@ -87,3 +87,15 @@ table {
     background-color: rgb(0, 255, 0);
     order: 1;
 } 
+
+ /* ---------------------------------------------------------picFrame */
+img {
+    width: 50%;
+}
+ .picFrame {
+     background: gray;
+     height: 100px;
+ }
+ .picFrame h2 {
+     text-align: center;
+ }
