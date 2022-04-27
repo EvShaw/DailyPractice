@@ -324,26 +324,86 @@ console.log('linked')
 
 
 
-document.querySelector('#getFetch').addEventListener('click', getFetch)
-const url = 'https://dog.ceo/api/breeds/image/random'
+// document.querySelector('#getFetch').addEventListener('click', getFetch)
+// const url = 'https://dog.ceo/api/breeds/image/random'
 
-function getFetch() {
-    // fetch('https://dog.ceo/api/breeds/image/random')
-    fetch(url)
-        .then(res => res.json())
-        .then(data => {
-            console.log(data.message)
+// function getFetch() {
+//     // fetch('https://dog.ceo/api/breeds/image/random')
+//     fetch(url)
+//         .then(res => res.json())
+//         .then(data => {
+//             console.log(data.message)
 
-            const li = document.createElement('li')
-            const image = document.createElement('img')
-            image.src = data.message
-            li.appendChild(image)
-            // li.innerContext = data.message
+//             const li = document.createElement('li')
+//             const image = document.createElement('img')
+//             image.src = data.message
+//             li.appendChild(image)
+//             // li.innerContext = data.message
         
-            document.querySelector('#dogBoard').appendChild(li)
+//             document.querySelector('#dogBoard').appendChild(li)
 
-        })
-        .catch(err => {
-            console.log(err)
-        })
+//         })
+//         .catch(err => {
+//             console.log(err)
+//         })
+//
+
+// const lastTimeOnDBZ = localStorage.getItem('aNewStr', 'Episode 288')
+
+// console.log(lastTimeOnDBZ)
+
+// const deck1 = {
+//     land: 'all', 
+//     creatures: 'slivers',
+//     spells: 'some',
+//     enchanments: 'Circle of Protection: Shadow'
+
+// }
+
+// const deck2 = {
+//     land: 'Mountain', 
+//     creatures: 'Goblins',
+//     spells: 'Goblin Grenades'
+// }
+
+// const collection = Object.assign({}, [deck1, deck2])
+
+// console.log(collection)
+
+let batman = {
+    name: 'Bruce', 
+    occupation: 'Detective'
 }
+
+let superman = {
+    name: 'Clark', 
+    occupation: 'Journalist'
+}
+let wonderwoman = {
+    name: 'Diana', 
+    occupation: 'Curator'
+}
+
+let justiceLeague = Object.assign({}, [batman, superman, wonderwoman])
+
+// // console.log(justiceLeague)
+
+// // for (key in justiceLeague) {
+// //     console.log(justiceLeague[key].occupation)
+// // }
+
+// console.log('name' in superman)
+// console.log(batman.sideKick)
+// console.log('sideKick' in batman)
+
+// for (let key in justiceLeague) {
+//     console.log(justiceLeague[key].name)
+// }
+
+
+
+const xMen = ['Professor X', 'Cyclops', 'Jean-Grey', 'Iceman', 'Angel', 'Beast', 'Nightcrawler', 'Colossus', 'Jubilee', 'Rogue', 'Gambit']
+
+xMen.find(item => console.log(item))
+
+batman.find(item => item.name === 'Bruce' )
