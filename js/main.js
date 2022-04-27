@@ -281,7 +281,7 @@ console.log('linked')
 // localStorage.getItem('count', count) 
 
 // document.querySelector('.block').addEventListener('click', event => {
-    
+
 //     if (count !== 0) {
 //         localStorage.setItem('count', count)
 //     }
@@ -339,7 +339,7 @@ console.log('linked')
 //             image.src = data.message
 //             li.appendChild(image)
 //             // li.innerContext = data.message
-        
+
 //             document.querySelector('#dogBoard').appendChild(li)
 
 //         })
@@ -424,3 +424,85 @@ console.log('linked')
 // for (members of xMen) {
 //     console.log(members)
 // }
+
+// console.log(Array.isArray(xMen))
+// const { firstName, lastNAme } = person
+// console.log(firstName)
+
+// let enchantment = "Circle of Protection: Shadow"
+// console.log(enchantment.split(' '))
+
+// const todoCompleted = todos.filter(function (todo) {
+//     console.log(todo.isCompleted === true)
+
+// }).map(function (todo) {
+//     todo.text
+// })
+// let power = 0
+// // for (let i = 0; i < 10; i++) {
+
+// //     console.log(power*=2)
+// // }
+// total = 1
+// while (power < 10 ) {
+//     console.log(total*=2)
+//     power++
+// }
+
+// let str = 'boom  '
+
+// console.log(String()
+
+// let board = ''
+// let size = 8
+// for(let i = 0; i < size; i++) {
+//     for(let j = 0; j < size; j++) {
+//         if((i + j) % 2 === 0) {
+//             board += ' '
+//         } else {
+//             board += '#'
+//         }
+//     }
+//     board += '\n'
+// }
+
+// // console.log(board)
+
+// let numRange = [0, 1, 2, 3, 4]
+
+// // console.log(numRange.slice(3, 4))
+
+// // 16
+// // console.log(Math.pow(2, 6))
+// console.log(Math.max(0, 2, 3, 66))
+
+// for (let i = '#'; i.length < 8; i += '#') {
+//     console.log(i)
+// }
+
+// for (let i = '#######'; i.length > 0; i = i.slice(1)) {
+//     console.log(i)
+// }
+
+// let wonderwoman = {
+//     name: 'Diana',
+//     occupation: 'Curator'
+// }
+// delete wonderwoman.occupation
+// console.log(wonderwoman)
+
+// document.querySelector('h2').innerText = 'And now I am this'
+
+// function takesStr(str) {
+//     console.log(str.split('').reverse().join(''))
+// }
+
+// takesStr('Gotta Catch Them All')
+
+// function isPalindrom(str) {
+//     str.split('').reverse().join('') === str ? console.log('y') : console.log('n')
+// }
+
+// const isPalindrome = s => s === s.split('').reverse().join('') ? alert('Yes') : alert('Nope')
+
+// isPalindrome('racecar')
