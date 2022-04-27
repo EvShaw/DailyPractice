@@ -368,42 +368,59 @@ console.log('linked')
 
 // const collection = Object.assign({}, [deck1, deck2])
 
-// console.log(collection)
+// // console.log(collection)
 
-let batman = {
-    name: 'Bruce', 
-    occupation: 'Detective'
-}
-
-let superman = {
-    name: 'Clark', 
-    occupation: 'Journalist'
-}
-let wonderwoman = {
-    name: 'Diana', 
-    occupation: 'Curator'
-}
-
-let justiceLeague = Object.assign({}, [batman, superman, wonderwoman])
-
-// // console.log(justiceLeague)
-
-// // for (key in justiceLeague) {
-// //     console.log(justiceLeague[key].occupation)
-// // }
-
-// console.log('name' in superman)
-// console.log(batman.sideKick)
-// console.log('sideKick' in batman)
-
-// for (let key in justiceLeague) {
-//     console.log(justiceLeague[key].name)
+// let batman = {
+//     name: 'Bruce', 
+//     occupation: 'Detective'
 // }
 
+// let superman = {
+//     name: 'Clark', 
+//     occupation: 'Journalist'
+// }
+// let wonderwoman = {
+//     name: 'Diana', 
+//     occupation: 'Curator'
+// }
+
+// let justiceLeague = Object.assign({}, [batman, superman, wonderwoman])
+
+// // // console.log(justiceLeague)
+
+// // // for (key in justiceLeague) {
+// // //     console.log(justiceLeague[key].occupation)
+// // // }
+
+// // console.log('name' in superman)
+// // console.log(batman.sideKick)
+// // console.log('sideKick' in batman)
+
+// // for (let key in justiceLeague) {
+// //     console.log(justiceLeague[key].name)
+// // }
 
 
-const xMen = ['Professor X', 'Cyclops', 'Jean-Grey', 'Iceman', 'Angel', 'Beast', 'Nightcrawler', 'Colossus', 'Jubilee', 'Rogue', 'Gambit']
 
-xMen.find(item => console.log(item))
+// const xMen = ['Professor X', 'Cyclops', 'Jean-Grey', 'Iceman', 'Angel', 'Beast', 'Nightcrawler', 'Colossus', 'Jubilee', 'Rogue', 'Gambit']
 
-batman.find(item => item.name === 'Bruce' )
+// // xMen.find(item => console.log(item))
+
+// // batman.find( item => item.name === 'Bruce' )
+
+// // for (let i = 0; i < xMen.length; i++) {
+// //     console.log(xMen[i])
+// // }
+
+// // xMen.forEach( ele => console.log(ele))
+
+
+// // let membersOnMission = 0
+// // while (membersOnMission < xMen.length) {
+// //     console.log(xMen[membersOnMission])
+// //     membersOnMission++
+// // }
+
+// for (members of xMen) {
+//     console.log(members)
+// }
