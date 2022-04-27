@@ -296,17 +296,54 @@ console.log('linked')
 
 //testing pull request and update. 
 
-localStorage.clear()
-localStorage.removeItem('propertyName', 'value')
+// localStorage.clear()
+// localStorage.removeItem('propertyName', 'value')
 
-const li = document.createElement('li')
-li.textContent = 'Another day, another opportunity'
-document.querySelector('ul').appendChild('li')
+// const li = document.createElement('li')
+// li.textContent = 'Another day, another opportunity'
+// document.querySelector('ul').appendChild('li')
 
-data.subClases.forEach( obj => {
-    console.log(obj.name)
-    const li = document.createElement('li')
-    li.textContent = obj.name
-    document.querySelector('ul').appendChild(li)
-})
+// data.subClases.forEach( obj => {
+//     console.log(obj.name)
+//     const li = document.createElement('li')
+//     li.textContent = obj.name
+//     document.querySelector('ul').appendChild(li)
+// })
 
+//personal test: when we get to the dog api. use the above to append images and set their size. Save it to the local Storage as well. 
+
+// let aNewStr = "Next time on Dragon Ball Z"
+
+// console.log(aNewStr.startsWith('N'))
+// console.log(aNewStr.endsWith('Z'))
+
+// localStorage.clear()
+
+// localStorage.setItem('aNewStr', 'Episode 288')
+
+
+
+
+document.querySelector('#getFetch').addEventListener('click', getFetch)
+const url = 'https://dog.ceo/api/breeds/image/random'
+
+function getFetch() {
+    // fetch('https://dog.ceo/api/breeds/image/random')
+    fetch(url)
+        .then(res => res.json())
+        .then(data => {
+            console.log(data.message)
+
+            const li = document.createElement('li')
+            const image = document.createElement('img')
+            image.src = data.message
+            li.appendChild(image)
+            // li.innerContext = data.message
+        
+            document.querySelector('#dogBoard').appendChild(li)
+
+        })
+        .catch(err => {
+            console.log(err)
+        })
+}
