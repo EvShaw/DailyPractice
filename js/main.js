@@ -506,3 +506,65 @@ console.log('linked')
 // const isPalindrome = s => s === s.split('').reverse().join('') ? alert('Yes') : alert('Nope')
 
 // isPalindrome('racecar')
+
+// username = ''
+// defaultName = username || 'Stranger'
+
+// // if (username) {
+// //     defaultName = username
+// // } else {
+// //     defaultName = 'Stranger'
+// // }
+
+// // console.log(defaultName)
+
+
+// console.log(username ? username : defaultName)
+
+// let tester = ''
+
+// if(tester) {
+//     console.log('tester')
+// } else {
+//     console.log('Nothing Here')
+// }
+
+// tester ? console.log('HERE I AM') : console.log('ROCK ME LIKE A HURRICANE')
+// console.log('Hey'.startsWith('H'))
+
+// const xMen = ['Professor X', 'Cyclops', 'Jean-Grey', 'Iceman', 'Angel', 'Beast', 'Nightcrawler', 'Colossus', 'Jubilee', 'Rogue', 'Gambit']
+
+// xMen.forEach((ele => console.log(ele)))
+
+// function xMenChallenge(arr) {
+//     arr.pop()
+//     arr.pop()
+//     console.log(arr)
+// }
+
+// xMenChallenge(xMen)
+
+// console.log(xMen)
+
+// let isNightTime = true;
+
+// if (isNightTime) {
+//   console.log('Turn on the lights!');
+// } else {
+//   console.log('Turn off the lights!');
+// }
+
+// isNightTime ? console.log('Y') : console.log('N')
+
+// let isLocked = false;
+
+// if (isLocked) {
+//   console.log('You will need a key to open the door.');
+// } else {
+//   console.log('You will not need a key to open the door.');
+// }
+// isLocked ? console.log('y') : console.log('n')
+
+// let myCar = 'vroom'
+
+// myCar ? console.log('y') : console.log('n')
