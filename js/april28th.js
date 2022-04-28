@@ -106,3 +106,100 @@ console.log('April 28th')
 //     console.log(item.text)
 // }))
 
+// let user = {
+//     name: "John",
+//      age: 30,
+//      isAdmin: true
+// };
+
+// console.log(user)
+
+// for (let key in user) {
+//     console.log(user[key])
+// }
+
+// before the call
+// let menu = {
+//     width: 200,
+//     height: 300,
+//     title: "My menu"
+//   };
+
+// //   multiplyNumeric(menu);
+
+// //   // after the call
+// //   menu = {
+// //     width: 400,
+// //     height: 600,
+// //     title: "My menu"
+// //   };
+
+// for (let key in menu) {
+//     console.log(menu[key]*2)
+// }
+
+// console.log(menu)
+
+// const calculator = {
+//     read() {
+//         this.a = +prompt('a?')
+//         this.b = +prompt('b?')
+//     },
+//     sum() {
+//         console.log(this.a + this.b)
+//     },
+//     mul() {
+//         console.log(this.a * this.b)
+//     }
+// }
+//  console.log(calculator.read())
+
+//  Object.assign(dest, [arr1, arr2, arr3])
+
+
+// let schedule = {};
+
+// function isEmpty(obj) {
+//     for (let key in obj) {
+//         if (key != {}) {
+//             console.log(false)
+//         } else {
+//             console.log(true)
+//         }
+//         console.log(key)
+//     }
+// }
+
+
+// isEmpty(schedule)  // true
+// schedule["8:30"] = "get up";
+// isEmpty(schedule)  // false
+
+// function testTest(v) {
+//     if (v === undefined) {
+//         console.log('nothing here boss')
+//     }
+//     console.log(v)
+// }
+
+// testTest('hi')
+
+// let arr = [1, 15, 2]
+
+// console.log(arr.sort((a, b) => a - b)
+// )
+
+// let salaries = { John: 100, Ann: 160, Pete: 130 }
+
+// // let sum = 0
+
+// // for (let total in salaries) {
+// //     sum+= salaries[total]
+// // }
+// // console.log(sum)
+
+// // function sumSalaries()
+
+// console.log(salaries.find( item => item.name === 'john'))
+
+// Object.assign({}, [obj1, obj2])
