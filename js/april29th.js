@@ -96,3 +96,10 @@
 //         console.log('BEEEEEEEEEEEEP')
 //     }
 // }
+
+// const legoMiniFigs = ['blackKnight', 'racoon', 'hotdogMan', 'waterMelon boy']
+
+// for (figs of legoMiniFigs) {
+//     console.log(figs)
+// }
+
