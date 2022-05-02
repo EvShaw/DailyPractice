@@ -203,3 +203,35 @@ console.log('April 28th')
 // console.log(salaries.find( item => item.name === 'john'))
 
 // Object.assign({}, [obj1, obj2])
+
+
+
+//--------------------------------------------------
+//MAY 2nd:
+
+
+dailyOrderCount = 0
+
+function MakePizza(pickup, size, toppings, sauce, crust) {
+    this.pickup = pickup
+    this.size = size
+    this.toppings = toppings
+    this.sauce = sauce
+    this.crust = crust
+    this.orderStatus = function() {
+        'Being prepared by our pie specialists'
+    }
+    this.receipt = function () {
+        dailyOrderCount++
+        console.log(`Order: ${dailyOrderCount}, 1 ${this.size} ${this.crust} crust ${this.toppings}!`)
+    }
+}
+
+function receipt() {
+    dailyOrderCount++
+    console.log(MakePizza)
+}
+
+const pizzaOrder = new MakePizza(false, 'XL', 'pepperoni', 'sauce', 'Stuffed')
+
+console.log(pizzaOrder.receipt())
