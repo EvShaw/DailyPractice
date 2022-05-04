@@ -92,3 +92,45 @@
 
 // console.log(fNames)
 // console.log(lNames)
+
+// console.log('')
+
+// function AgencyConstractor(hourlyRate, hours, taxRate){
+//     this.hourlyRate = hourlyRate
+//     this.hours = hours
+//     this.taxRate = taxRate
+//     this.calculateProfit = function() {
+//         return this.hourlyRate * this.hours * (1 - this.taxRate)
+//     }
+//     this.invoiceClient = function() {
+//         return `Your invoice total is ${this.hourlyRate * this.hours}`
+//     }
+// }
+
+// let ian = new AgencyConstractor(250,160,.35)
+
+
+// for (let prop in ian) {
+//     console.log(prop)
+//     console.log(ian[prop])
+// }
+
+// console.log('hi')
+
+// function AgencyContractor(hourlyRate, hours, taxRate) {
+//     this.hours = hours
+//     this.taxRate = taxRate
+//     let rate = hourlyRate
+//     let calculateProfit = function () {
+//         return rate * this.hours * (1 - this.taxRate)
+//     }
+//     this.invoiceClient = function () {
+//         return `Your invoice total is ${rate * this.hours}`
+//     }
+// }
+
+// // // let ian = new AgencyContractor(250, 160, .35)
+
+// // console.log(ian.invoiceClient())
+
+
