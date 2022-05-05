@@ -114,3 +114,20 @@ console.log('May 5th 2022')
 // if (num >= 0 || num < 100) {
 //    console.log('not in range')
 // }
+
+// const li = document.createElement('li')
+// li.innerContent = 'Awesome'
+
+// document.querySelector('ul').appendChild(li)
+
+// fetch('https://dog.ceo/api/breeds/image/random') 
+//    .then(res => res.json())
+//    .then(data => {
+//       document.querySelector('img').src = data.message
+//    })
+//    .catch(err => {
+//       console.log(err)
+
+//    })
+
+abc123.reduce((acc, c) => acc + +c, 0)
