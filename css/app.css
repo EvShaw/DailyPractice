@@ -99,3 +99,27 @@ img {
  .picFrame h2 {
      text-align: center;
  }
+
+ /* 
+ <figure>
+<iframe src="#"></iframe
+ </figure>
+
+ 
+
+ figure {
+    height: 0;
+    width: 100%;
+    padding-bottom: 56.25%; (16:9)
+    position: relative;
+ }
+
+ iframe {
+     height: 100%;
+     widht: 100%;
+     position: absolute; 
+     top: 0;
+     left: 0; 
+ */
+
+ 
