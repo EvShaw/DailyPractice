@@ -38,7 +38,7 @@ console.log('May 14th 2022')
 // let salaries = { John: 100, Ann: 160, Pete: 130 }
 // let sum = 0
 // for (let key in salaries) {
-   
+
 //     console.log(sum += salaries[key])
 // // }
 
@@ -54,15 +54,26 @@ console.log('May 14th 2022')
 
 // console.log(count)
 
-const getFetch = function(){
-    fetch('https://dog.ceo/api/breeds/image/random')
-        .then(res => res.json())
-        .then(data => {
-            console.log(data)
-        })
-        .catch(err => {
-            console.log(err)
-        })
-}  
+// const getFetch = function(){
+//     fetch('https://dog.ceo/api/breeds/image/random')
+//         .then(res => res.json())
+//         .then(data => {
+//             console.log(data)
+//         })
+//         .catch(err => {
+//             console.log(err)
+//         })
+// }  
 
-getFetch()
+// getFetch()
+
+// class Animal {
+//     constructor(name) {
+//         this._name = name
+//     }
+//     get name() {
+//         return this._name
+//     }
+// }
+
+const user = users.find(item => item.id == 2)
