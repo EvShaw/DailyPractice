@@ -81,6 +81,6 @@
 
 // const gridMap = ((fn, a) => a.map(x=> x.map(fn)))
 
-const nums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+// const nums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
-console.log(nums.reduce((acc, c) => acc + c, 0))
+// console.log(nums.reduce((acc, c) => acc + c, 0))
