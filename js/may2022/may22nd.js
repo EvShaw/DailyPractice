@@ -65,8 +65,70 @@ const myTeam = ['Charizard', 'Gengar', 'Dragapult', 'Greninja', 'Golem', 'Eevee'
 //     const data = await res.json()
 //     console.log(data)
 // }
-let num = 1
-while (num < 10) {
-    console.log(num*num)
-    num++
-}
+
+// let num = 1
+// while (num < 10) {
+//     console.log(num*num)
+//     num++
+// }
+
+// for (let i = 0; i < 10; i++) {
+//     console.log(i*i)
+// }
+
+// const anObject = {
+//     myProp: 2
+// };
+
+
+// const anotherOBject = Object.create(anObject)
+// const anotherOBject2 = Object.create(anotherOBject)
+
+// console.log(anotherOBject.myProp)
+// console.log(anotherOBject2.myProp)
+
+// const todoCompleted = todo.filter( todo => todo.isCompleted === true)
+
+// let user = {
+//     name: "John", 
+//     age: 30
+// }
+
+// let clone = {}
+
+// for (let ket in user) {
+//     clone[key] - user[key]
+// }
+
+// function isEmpty(obj) {
+//    for (let key in obj) {
+//        console.log(false)
+//    }
+//    return true
+// }
+
+// let salaries = { John: 100, Ann: 160, Pete: 130 }
+
+// let total = 0
+
+// for(let num in salaries) {
+
+//     total += salaries[num]
+// }
+
+// console.log(total)
+
+// const allEquals = arr.every(val => val === arr[0])
+
+// function houseOne() {
+//     setTimeout(() => {
+//         console.log('delivered to house one')
+//             setTimeout(() => {
+//                 console.log('delivered to house two')
+//                     setTimeout(() => {
+//                         console.log('delivered to house three')
+//                     }, 2000)
+//             }, 4000)
+//     }, 6000)
+// }
+// houseOne()
