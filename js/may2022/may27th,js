@@ -1,1 +1,45 @@
 console.log('May 27th, 2022')
+
+// async function getDogPhoto(){
+//     const res =await fetch('urlHere')
+//     const data = await res.json()
+//     console.log(data)
+// }
+
+// let arr = ['one', 'two', 'three']
+
+// arr.forEach(ele => ele.addEventListener('click', (e) => {
+//     console.log(e.target)
+// }))
+
+// let menu = {
+//     width: 200,
+//     height: 300,
+//     title: "My menu",
+// };
+
+// multiplyNumeric(obj) {
+//     for (prop in obj) {
+//         if (typeof obj[prop] === 'number') {
+//             return obj[prop] *= 2
+//         }
+//     }
+// }
+
+// console.log(multiplyNumeric(menu))
+
+// arrName.find(item => item.id === 2)
+
+function isAnagram(word1, word2) {
+    let wordarr = word.split('')
+    console.log(wordarr)
+
+
+
+
+    
+    let anagram = wordarr.sort((a, b) => a - b)
+    console.log(anagram)
+}
+
+isAnagram('toffee', 'foefet')
