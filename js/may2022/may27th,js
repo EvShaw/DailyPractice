@@ -31,6 +31,7 @@ console.log('May 27th, 2022')
 // arrName.find(item => item.id === 2)
 
 function isAnagram(word1, word2) {
+<<<<<<< HEAD
     let wordarr1 = word1.split('').sort().join('')
     let wordarr2 = word2.split('').sort().join('')
 
@@ -44,6 +45,17 @@ function isAnagram(word1, word2) {
     } else {
         console.log('nope')
     }
+=======
+    let wordarr = word.split('')
+    console.log(wordarr)
+
+
+
+
+    
+    let anagram = wordarr.sort((a, b) => a - b)
+    console.log(anagram)
+>>>>>>> f88d8269dde632c91360d2c282d4b0c4df8fa373
 }
 
 isAnagram('toffee', 'foefet')
