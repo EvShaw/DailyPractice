@@ -31,7 +31,4 @@ console.log('May 29th, 2022')
 //     li.innerContent = "Hi!"
 //     document.querySelector('ul').appendChild(li)
 // })
-let num = 121
-if (num > 0 && num < 100) {
-    console.log('yes')
-} 
+
