@@ -78,6 +78,13 @@ console.log('june 1st, 2022')
 
 // dogPhoto()
 
-async function functionNAme(){
+// async function functionNAme(){
     //code
-}
+// }
+// const anObject = {
+//     myProp: 2
+// }
+
+// const anotherObject = Object.create(anObject)
+
+// console.log(anotherObject.myProp)
