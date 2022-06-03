@@ -114,3 +114,52 @@ console.log('May 30th, 2022')
 //     }
 // }
 // num(10)
+
+// PREP
+// P:
+//return vowel count, a, e, i, o, u. spaces and lowercases only. 
+
+// R:
+//return: as is. total num (int)
+// E:
+// abracadabra => return 5
+// P:
+// take str, break into array. split('')
+// iterate over array. 
+// use if statement. 
+//
+
+// function getCount(str) {
+//     const vowel = ['a', 'e', 'o', 'i', 'u']
+//     let count = 0
+
+//     const arr = str.split('')
+
+//     for (let i = 0; i < arr.length; i++) {
+//         for (let j = 0; j < vowel.length; j++) {
+//             if (arr[i] === vowel[j]) {
+//                 count++
+//             }
+//         }
+//     }
+
+//     return count
+
+// }
+
+// console.log(getCount('abracadabra'))
+
+// function getCount(str) {
+//     return str.split('').filter(c => "aeiouAEIOU".includes(c)).length;
+// }
+
+function sumTwoSmallestNumbers(numbers) {
+    const newArr = numbers.sort((a, b) => a - b)
+
+
+    console.log(newArr)
+}
+
+
+
+console.log(sumTwoSmallestNumbers([19, 5, 42, 2, 77]))
