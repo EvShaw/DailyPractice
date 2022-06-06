@@ -94,3 +94,97 @@ console.log('june 6th, 2022')
 //         response.end()
 //     })
 // }).listen(8000)
+
+// const myArray = [6, 19, 20];
+// const yourArray = [19, 81, 2];
+// for (let i = 0; i < myArray.length; i++) {
+//   for (let j = 0; j < yourArray.length; j++) {
+//     if (myArray[i] === yourArray[j]) {
+//       console.log('Both loops have the number: ' + yourArray[j])
+//     }
+//   }
+// };
+
+// let salaries = { John: 100, Ann: 160, Pete: 130 }
+
+// let sum = 0
+
+// for (val in salaries) {
+//     sum += salaries[val]
+// }
+
+// console.log(sum)
+
+// let menu = {
+//     width: 200,
+//     height: 300,
+//     title: "My menu"
+// };
+
+// for (let prop in menu) {
+//     if (typeof menu[prop] === 'number') {
+//         menu[prop]*= 2
+//     }
+// }
+
+// console.log(menu)
+
+// const users = [
+//     {id: 1, name: 'Jonny'},
+//     {
+//         id: 2, 
+//         name: 'Andy',
+
+//     },
+//     {id: 3, name: 'Mary'}
+// ]
+
+// let user = users.find(item => item.id == 3)
+
+// console.log(user)
+
+
+// callBack: 
+
+// function houseOne(){
+//     setTimeout(() => {
+//         console.log('Phase One Completed')
+//             setTimeout(() => {
+//                 console.log('Phase Two Completes')
+//                     setTimeout(() => {
+//                         console.log('Phase three completes')
+//                     }, 3000)
+//             }, 2000)
+//     }, 1000)
+// }
+
+// houseOne()
+
+// app.listen(3000, () => {
+//     console.log('Lisetening on 3000')
+// })
+
+// app.get('/', (request, response) => {
+//     response.sendFile(__dirname + '/index.html')
+// })
+
+// const MongoClient = require('mongodb').MongoClient
+// MongoClient.connect('mongodb-connection-string', (err, client) => {
+//     //code here
+// })
+
+// app.post('/quotes', (request, responst) => {
+//     quotes.collection.insertOne(request.body)
+//         .then(result => {
+//             console.log(result)
+//         })
+//         .cath(err => console.error(err))
+// })
+
+// app.post('/quotes', (request, response) => {
+//     quotesCollection.insertOne(req.body)
+//         .then(result => {
+//             console.log(result)
+//         })
+//         .catch(error => console.error(error))
+// })
