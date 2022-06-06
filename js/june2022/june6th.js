@@ -188,3 +188,13 @@ console.log('june 6th, 2022')
 //         })
 //         .catch(error => console.error(error))
 // })
+
+// const MongoClient = require('mongodb').MongoClient
+
+// myUrl.searchParams.forEach((value, name) => console.log(`${name}: ${value}`))
+
+// fs.writeFile(path.join(__dirname, 'test', 'hello.txt'), 'Hello World', err=> {
+//     if(err) throw err
+//     console.log('file written to...')
+// })
+//myUrl.searchParams.append('abc', '123')
