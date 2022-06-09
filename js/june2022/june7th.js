@@ -111,3 +111,5 @@ console.log('June 7th, 2022')
 // const array2 = [1, 3, 54, 25, 16, -2]
 // array2.sort((a, b) => a - b)
 // console.log(array2)
+
+// arr.find( item => item.id == 2ls)
