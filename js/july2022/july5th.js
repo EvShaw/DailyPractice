@@ -64,7 +64,8 @@ let menu = {
   };
 
 for(let key in menu) {
-    if (typeof menu[key] === 'number') {
+    if (typeof menuls
+    [key] === 'number') {
         menu[key] *= 2
     }
 }
