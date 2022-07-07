@@ -1,2 +1,2 @@
 const today = new Date
-console.log(today)git 
+console.log(today)
