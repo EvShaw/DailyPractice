@@ -63,18 +63,18 @@ console.log(today)
 // const PORT = process.env.PORT || 8000
 // app.use(cors())
 
-const menu = {
-    item: 'item one', 
-    costs: 'free', 
-    color: 'red',
-}
+// const menu = {
+//     item: 'item one', 
+//     costs: 'free', 
+//     color: 'red',
+// }
 
-console.log(menu)
+// console.log(menu)
 
-let newMenu = {}
+// let newMenu = {}
 
-for (let key in menu) {
-    newMenu[key] = menu[key]
-}
+// for (let key in menu) {
+//     newMenu[key] = menu[key]
+// }
 
-console.log(newMenu)
+// console.log(newMenu)
