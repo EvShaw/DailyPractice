@@ -173,7 +173,9 @@ console.log(today)
 // }
 
 
+
 // isEmpty(schedule)  // truegit 
+
 // schedule["8:30"] = "get up";
 // isEmpty(schedule)  // false
 
@@ -229,6 +231,7 @@ console.log(today)
 //     allEqual([1, 2, 3, 4, 5, 6]) //false
 //     allEqual([1, 1, 1, 1])
     
+
 //     Now add uqals or odds
 
 // function deleteNth(arr, n) {
@@ -252,3 +255,4 @@ console.log(today)
 //         return cache[n] <= x;
 //     });
 // }
+
