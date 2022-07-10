@@ -173,7 +173,9 @@ console.log(today)
 // }
 
 
-// isEmpty(schedule)  // true
+
+// isEmpty(schedule)  // truegit 
+
 // schedule["8:30"] = "get up";
 // isEmpty(schedule)  // false
 
@@ -229,4 +231,28 @@ console.log(today)
 //     allEqual([1, 2, 3, 4, 5, 6]) //false
 //     allEqual([1, 1, 1, 1])
     
+
 //     Now add uqals or odds
+
+// function deleteNth(arr, n) {
+//     const count = {}
+//     const ans = []
+
+//     for (let el of arr) {
+//         if (count[el]) count[el] = count[el] + 1
+//         else count[el] = 1
+//         if (count[el] <= n) ans.push(el)
+//     }
+//     return ans
+// }
+
+
+// filter way:
+// function deleteNth(arr, x) {
+//     var cache = {};
+//     return arr.filter(function (n) {
+//         cache[n] = (cache[n] || 0) + 1;
+//         return cache[n] <= x;
+//     });
+// }
+
