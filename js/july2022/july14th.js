@@ -113,16 +113,18 @@ console.log(today)
 // }
 // getPhoto()
 
-function removeExtra(arr, n) {
-    const count = {}
-    const ans = []
+// function removeExtra(arr, n) {
+//     const count = {}
+//     const ans = []
 
-    for(let el of arr) {
-        if(count[el]) count[el] = count[el]+1
-        else count[el] = 1
-        if(count[el] <= n) ans.push(el)
-    }
-    return ans
-}
+//     for(let el of arr) {
+//         if(count[el]) count[el] = count[el]+1
+//         else count[el] = 1
+//         if(count[el] <= n) ans.push(el)
+//     }
+//     return ans
+// }
 
-console.log(removeExtra([2, 3, 4, 5, 4, 4, 2, 2, 3, 3, 3, 6]))
+// console.log(removeExtra([2, 3, 4, 5, 4, 4, 2, 2, 3, 3, 3, 6]))
+
+
