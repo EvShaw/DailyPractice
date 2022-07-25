@@ -121,14 +121,4 @@ console.log(today)
 // const cors = require('cors')
 // app.use(cors())
 
-// function phoneNum(num) {
-//     let format = '(xxx) xxx-xxxx'
-
-//     for(let i = 0; i < num.length; i++) {
-//         format = format.replace('x', num[i])
-//     }
-
-//     return format
-// }
-
-// console.log(phoneNum([1, 2, 3, 4, 5, 6, 7, 8, 9, 0]))
+// cd j
