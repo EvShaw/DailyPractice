@@ -79,7 +79,7 @@ console.log(today)
 
 // console.log(removeDupes('AAAABBBCCDAABBB'))
 
-// const itemCompleted = document.querySelectorAll('.item span.completed') 
+// const itemCompleted = document.querySelectorAll('.item span.completed')
 
 // app.get('/', (req, res) => {
 //     res.sendFile(__dirname + '/index.html')
