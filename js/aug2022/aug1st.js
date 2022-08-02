@@ -86,7 +86,7 @@ console.log(today)
 //     return n
 // }
 
-// console.log(acceptTwoNumsAndRound(2))
+// console.log(acceptTwoNumsAndRound(2))l
 
 // const roundBy = (num, x = 5) => {
 //     while(num % x != 0) num++
@@ -110,3 +110,4 @@ console.log(today)
 // for(i = '#######'; i.length > 0; i = i.slice(1)) {
 //     console.log(i)
 // }
+
