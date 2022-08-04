@@ -96,7 +96,6 @@ console.log(today)
 //     return array.map(e => Number.isInteger(Math.sqrt(e)) ? Math.sqrt(e) : e*e);  
 //   }
 
-
 //92 day streak, 11 card average
 
 const today = new Date
