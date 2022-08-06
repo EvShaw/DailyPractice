@@ -126,3 +126,21 @@ console.log(today)
 // function isIsogram(str){
 //     return new Set(str.toUpperCase()).size == str.length;
 //   }
+
+// class MakePizza2 {
+//     constuctor(size, sauce, toppings, crust) {
+//         this.size = size
+//         this.sauce = sauce
+//         this.toppings = toppings
+//         this.crust = crust
+//     }
+//     delivery() {
+//         console.log('on its way')
+//     }
+//     temp() {
+//         console.log('burn my mouth')
+//     }
+//     frisbee() {
+//         console.log('yeet!')
+//     }
+// }
