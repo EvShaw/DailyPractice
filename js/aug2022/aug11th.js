@@ -4,8 +4,8 @@ console.log(today)
 // response.render('index.ejs', {info: nameList})
 
 // app.get('/', (req, res) => {
-//    
-//  } 
+//
+//  }
 
  // app.set('view engine', 'ejs')
 
@@ -111,4 +111,27 @@ console.log(today)
 //     }
 //     return true;
 // }
+// const todoItems = await db.collection('todos').find().toArray()
 
+// const todoCompleted = todos.filter(function(todo) {
+//     return todo.isCompleted === true;
+// });
+
+// data.subclasses.forEach( obj => {
+//     console.log(obj.name)
+//
+//     const li = document.createElement('li')
+//
+//     li.textContent = obj.name
+//
+//     document.querySelector('ul').appendChild(li)
+
+// const myArray = [6, 19, 20];
+// const yourArray = [19, 81, 2];
+// for (let i = 0; i < myArray.length; i++) {
+//   for (let j = 0; j < yourArray.length; j++) {
+//     if (myArray[i] === yourArray[j]) {
+//       console.log('Both loops have the number: ' + yourArray[j])
+//     }
+//   }
+// };
