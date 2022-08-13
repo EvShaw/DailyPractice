@@ -130,3 +130,4 @@ console.log(today)
 
 // const removeAdj = str => [...str].filter((a, i) => a !== str[i - 1])
 // console.log(removeAdj(['a', 'a', 'b', 'b', 'b', 'c', 'c']))
+
