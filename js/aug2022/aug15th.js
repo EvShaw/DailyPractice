@@ -62,6 +62,6 @@ console.log(today)
 
 //refactor: 
 
-const doubleUp = str => str.split('').map(c => c + c).join('')
+// const doubleUp = str => str.split('').map(c => c + c).join('')
 
-console.log(doubleUp('String'))
+// console.log(doubleUp('String'))
