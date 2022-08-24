@@ -114,3 +114,4 @@ console.log(today)
 // const getmid = str => str.slice((str.length-1)/2, str.length/2+1)
 
 // console.log(getmid('mid'))
+
