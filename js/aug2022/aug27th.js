@@ -81,3 +81,28 @@ console.log(today)
 // }
 
 // console.log(grid(5))
+// function generateShape(integer) {
+//     let shape = '+'
+//     const arr = []
+
+//     for(let i = 0; i < integer; i++) {
+//         arr.push(shape.repeat(integer))
+//     }
+//     return arr.join('\n')
+// }
+
+// console.log(generateShape(8))
+
+// function generateShape(integer) {
+//     let square = ''
+
+//     for (let i = 0; i < integer; i++) {
+//         for (let j = 0; j < integer; j++) {
+//             square += '+'
+//         }
+//        square += '\n'
+//     }
+//     square.slice(-2)
+//     return square
+// }
+
