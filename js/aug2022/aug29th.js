@@ -85,16 +85,16 @@ console.log(today)
 // const getMid = str => str.slice((str.length-1)/2, str.length/2+1)
 // console.log(getMid('Evan'))
 
-const calculator = {
-    read() {
-        this.a = +prompt('a?')
-        this.b = +prompt('b?')
-    },
-    sum() {
-        return this.a + this.b
-    },
-    mul() {
-        return this.a * this.b
-    }
-}
+// const calculator = {
+//     read() {
+//         this.a = +prompt('a?')
+//         this.b = +prompt('b?')
+//     },
+//     sum() {
+//         return this.a + this.b
+//     },
+//     mul() {
+//         return this.a * this.b
+//     }
+// }
 
